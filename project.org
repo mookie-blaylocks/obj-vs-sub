@@ -1,0 +1,38 @@
+* Pitch
+We'd like to look at how people perceive robots based on how they explain actions to people. We have three conditions:
+** Object-focused
+In the object-focused condition, the robot explains events in terms that focus on objects and their movements. For example: ``The ball was moved to the cabinet''.
+** Action-focused
+In the action-focused condition, the robot explains events in terms of people doing actions to objects. For example: ``Sally moved the ball to the cabinet''.
+** Observation-focused
+In the observation-focused condition, the robot explains events in terms of perceiving the world. For example: ``I saw the ball be moved to the cabinet''.
+
+* Motivation
+We'd like to do this experiment because it affects several directions for robotic development and human psychology.
+** Robotic Language Generation
+When robots generate language, there are many ways to map deep semantics onto a surface form. By varying the surface form in this experiment, we will inform the objectives of this mapping. For example, object orientation may be preferable for working memory, but action orientation could be better for emotional intelligence rankings. So, in contexts where rapport building is more important, robots could adopt action orientation, while adopting object orientation for memory intensive tasks.
+** Robotic Emotional Intelligence
+When robots work alongside humans, it is important that they project some level of emotional intelligence. This is a well-researched field, and we'd hope to contribute linguistic data to understanding how emotional intelligence is measured in robots
+** Cognitive Models of Belief States
+Robots can hold beliefs in various ways. In the basic case, robots hold beliefs about objects in the world. In another case, they can hold beliefs about actions that they have perceived. Yet another case is that they hold beliefs about actions that other agents have performed on objects in the world. Each belief system frames the ontology of belief in a different light.
+
+In the first case, objects are manipulated and how it is done is incidental. In the second, observations are chief, which makes actions themselves the primary source of information. Finally, agent-based beliefs hold agents as the important part of belief, and nothing is happens without an agent investigator. 
+
+Abstractly, ``Sally put the ball in the cabinet'' can be represented as (1) ball(in(cabinet)), (2) put(Sally, ball, cabinet) or (3) Sally(put(ball,cabinet)) and the form chosen can effect the efficiency of calculations on that form. For cognitive models of belief, choosing the correct representation could be tantamount to modeling human performance.
+** Human Understanding
+Building off of the above, If humans have an easier time making sense of one linguistic representation and its impacts on the world, it could inform our understanding of how humans represent narrative in the world.
+
+Further, if we find significant deviance between orientations, we can make arguments for ease of understanding events based on their framing.
+** Human Working Memory
+Beyond representation, orientation (object, action, or observation) may behave differently in working memory. The variable in this experiment will allow us to observe performance given three different stimuli, so that in addition to subjective measurements to varied orientation, we also have an objective measure
+* Manipulations
+For each context, we've established a sequence of 8-10 events which will be described in each of three ways: (1) agent oriented, (2) object oriented, or (3) observation oriented. For each orientation, we kept word count constant to control for memory effects in the task.
+
+After the sequence of events was displayed / heard, participants were asked to reconstruct the sequence from memory.
+
+Contexts were always in the following order, but orientation was randomly assigned for contexts 1-3, which each occurring once. After Context 3, participants were asked which robot they would like to work with for the final context. This allowed us to collect latent data on user preferences for this task in addition to the subjective surveys.
+
+** Context 1: Kitchen
+** Context 2: Living Room
+** Context 3: Office
+** Context 4: Gym
